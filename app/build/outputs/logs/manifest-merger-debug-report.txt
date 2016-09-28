@@ -1,0 +1,93 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:3:5-59
+		INJECTED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:5:5-72
+	android:name
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:5:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:6:5-73
+	android:name
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:6:22-70
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:8:22-77
+application
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:10:5-32:19
+MERGED from [com.android.support:appcompat-v7:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:13:9-42
+	android:supportsRtl
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:14:9-35
+	android:allowBackup
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:11:9-35
+	android:icon
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:12:9-43
+	android:theme
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:15:9-40
+activity#com.synchronoss.androidDev.contactcreaterapp.MainActivity
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:16:9-21:20
+	android:name
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:16:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:17:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:19:27-74
+service#com.synchronoss.androidDev.contactcreaterapp.CreateAndAddContacts
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:23:9-29:19
+	android:exported
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:24:13-49
+intent-filter#.CreateAndAddContacts
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:26:13-28:29
+action#.CreateAndAddContacts
+ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:27:17-64
+	android:name
+		ADDED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml:27:25-61
+uses-sdk
+INJECTED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] /Users/ksha0005/ContactCreateApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/ksha0005/ContactCreateApp/app/src/main/AndroidManifest.xml
